@@ -11,10 +11,8 @@
 一个简易的视频拼接处理软件。
 
 # 如何使用?
-你需要自行下载ffmpeg到程序目录下。  
-然后运行launcher.py
-
-Content Auth Server -> Auth Server Back Auth Infomation -> 
+请前往[releases](https://github.com/obentnet/dickmedia-public/releases)页面获取最新客户端
+解压后运行RUN.exe即可使用
 
 # 功能列表
 * √ 拼接 模式1
@@ -23,16 +21,19 @@ Content Auth Server -> Auth Server Back Auth Infomation ->
 * √ 标题随机乱序
 * √ 音频分贝提升
 * √ 开发者模式
+* √ 菜单显示
 
 # 等待开发的功能
 * ~ 账号密码登录(集成在RUN.exe)
 * ~ 适配N卡（启动组件 -> 中间件(N卡适配指令) -> ffmpeg.exe
-* ~ 菜单显示
+* ~ 优化菜单显示
+* ~ 批量提升音量功能选择性覆盖原文件
+* ~ 支持所有平台的下载器
+* ~ 开发者模式转高级设置
 
 更新记录：
     1.0.0:
         - 随机头部视频，主视频顺序处理。
-    
     2.0:
         - 优化启动时间。
         - 增加启动显示
@@ -42,25 +43,20 @@ Content Auth Server -> Auth Server Back Auth Infomation ->
         - 使用DickCore3.0处理
         - 新增目录选择器。不需要手动填写地址
         - 重写输出文件名规则。
-    
     2.1:
         - 新增功能：5秒视频切割
         - 新增功能：标题随机乱序
         - 优化底层代码
         - 迭代更新架构
         - 重写部分代码
-    
     2.2: 
         - 优化代码
-    
     2.3:
         - 正式接入授权服务器
         - 软件正式改为收费使用
         - 添加软件非法启动验证
-    
     2.4:
         - 优化代码
-    
     2.5:
         - 5秒切割GUI化
         - combo GUI化
